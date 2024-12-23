@@ -7,8 +7,8 @@ import Link from "next/link";
 import { Thumbnail } from "@remotion/player";
 import { useEffect, useState } from "react";
 import { VideoDataType } from "./create-new/page";
-import RemotionVideo from "@/app/components/RemotionVideo";
-import PlayerDialog from "@/app/components/PlayerDialog";
+import RemotionVideo from "@/components/RemotionVideo";
+import PlayerDialog from "@/components/PlayerDialog";
 import { useReducer } from "react";
 
 export type PlayDialogStateType = {
